@@ -50,7 +50,12 @@ const Contact = () => {
           />
         </a>
         <Card className="bg-gray-900/50 border-gray-800 backdrop-blur-sm p-6 md:p-8 lg:p-12 w-full">
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form
+            action="https://formspree.io/f/xwpejnnn"
+            method="POST"
+            // onSubmit={handleSubmit}
+            className="space-y-6 text-start"
+          >
             {/* Full Name Field */}
             <div className="space-y-2">
               <label
@@ -108,21 +113,18 @@ const Contact = () => {
               />
             </div>
 
-            {/* Submit Button */}
-            {/* <Button
+            <button
+              className="relative inline-flex h-10 sm:h-12 w-full md:w-48 overflow-hidden rounded-3xl p-[1px] focus:outline-none transform transition-all duration-300 ease-in-out hover:scale-105"
               type="submit"
-              className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-medium py-3 h-12 transition-all duration-300 transform hover:scale-[1.02] focus:scale-[1.02]"
             >
-              Let's connect
-              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                />
-              </svg>
-            </Button> */}
+              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,white_0%,purple_50%,#E2CBFF_100%)]" />
+              <span
+                className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-3xl bg-slate-900/[0.8] px-5 text-sm font-medium text-white backdrop-blur-3xl gap-2`}
+              >
+                <span className="font-extrabold">Send</span>
+                <img src="assets/send.svg" />
+              </span>
+            </button>
           </form>
         </Card>
       </div>
