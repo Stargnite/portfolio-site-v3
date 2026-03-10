@@ -24,7 +24,7 @@ const About = () => (
           enthusiast.
         </p>
         <p>
-          I'm not just about pixels and code, I'm all about growth and
+          I&apos;m not just about pixels and code, I&apos;m all about growth and
           excellence. In an ever-evolving tech landscape, staying ahead means
           embracing new ideas and refining existing skills to further empower
           businesses and individuals.

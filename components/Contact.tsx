@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Card } from "./ui/card";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
+import Image from "next/image";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -45,7 +46,7 @@ const Contact = () => {
         <a className="mt-10 mb-20" href="mailto:sobayotoby@gmail.com">
           <Button
             title="Let's connect"
-            icon={<img src="assets/send.svg" />}
+            icon={<Image src="assets/send.svg" alt="icon" />}
             position="right"
           />
         </a>
