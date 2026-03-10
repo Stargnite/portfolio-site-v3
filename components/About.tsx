@@ -31,13 +31,13 @@ const About = () => (
         </p>
         <p>
           With a background that blends design and development, I love creating
-          beautiful, functional digital experiences. I’m passionate about
+          beautiful, functional digital experiences. I&apos;m passionate about
           crafting things that not only work well but feel great to use.
         </p>
         <p>
-          I’m always up for great conversations, whether it’s about a new
+          I&apos;m always up for great conversations, whether it&apos;s about a new
           project, tech trends, or even the latest action flick. Feel free to
-          reach out. Let’s connect!
+          reach out. Let&apos;s connect!
         </p>
       </Sparkle>
 
