@@ -5,15 +5,22 @@ import { Spotlight } from "./ui/Spotlight";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36 relative">
-      <div>
+      {/* <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
         />
         <Spotlight className="h-[100vh] w-[50vw] top-10 left-full" fill="red" />
-        <Spotlight className="left-80 top-28 h-[100vh] w-[50vw]" fill="red" />
-      </div>
-      <div className="text-center my-20 mx-auto max-w-full justify-center flex flex-col ">
+        <Spotlight className="left-80 top-10 h-[100vh] w-[50vw]" fill="red" />
+      </div> */}
+      <div className="text-center my-5 mx-auto max-w-full justify-center flex flex-col">
+        <div className="flex justify-center W-full mb-5 z-10">
+          <img
+            src="/me.png"
+            alt="Image of me"
+            className="w-[250px] h-[250px] rounded-full object-cover"
+          />
+        </div>
         <Reveal>
           <h1 className="text-center text-2xl md:text-6xl lg:text-7xl font-extrabold">
             Hey, I&apos;m {""}
@@ -26,9 +33,9 @@ const Hero = () => {
           The Front-end Developer
         </h2>
         <p className="max-w-[700px] mx-auto">
-          A passionate web developer with expertise in creating modern 
-          and responsive web interfaces. With a blend of creativity, 
-          innovation and dedication, always willing to craft software 
+          A passionate web developer with expertise in creating modern
+          and responsive web interfaces. With a blend of creativity,
+          innovation and dedication, always willing to craft software
           solutions that transform the essence of your business into a global phenomenon.
         </p>
         <a className="mt-10 mx-auto" target="_blank" href="https://wa.me//+2349029265732">

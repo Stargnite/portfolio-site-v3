@@ -20,6 +20,7 @@ export const myTechStack = [
   "Git",
   "CI/CD",
   "Agile",
+  "Solidity"
 ];
 
 export const projects = [
@@ -76,26 +77,28 @@ export const projects = [
   },
   {
     id: 5,
+    title: "Fooddash Admin Dashboard",
+    description:
+      "A centralized dashboard for a food delivery company that enables administrators to track deliveries, monitor riders, manage vendors, and oversee customer activity from a single intuitive interface.(Unavailable due to NDA)",
+    // className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "md:col-span-3 md:row-span-2",
+    img: "https://i.pinimg.com/originals/bf/c3/fb/bfc3fb764ff5f4d8d9ecb6da8544709c.gif",
+    // github: "https://github.com/codewithty",
+    // link: "https://codewithty.dev/contact",
+    techs: ["JavaScript", "React", "NodeJS", "CSS", "NextJS", "GitHub", "Shadcn", "Claude", "Clerk Auth"],
+  },
+  {
+    id: 6,
     title: "Dog On Ink",
     description:
       "The landing page for the first Dog memecoin on INK layer-2 blockchain",
-    className: "md:col-span-3 md:row-span-2",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    // className: "md:col-span-3 md:row-span-2",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "https://i.ibb.co/JFrhdpsP/dogofink-screenshot.png",
     github: "https://github.com/Stargnite/dog-on-ink",
     link: "https://dogonink.vercel.app/",
     techs: ["TypeScript", "Tailwind", "NextJs","Shadcn"],
-  },
-  {
-    id: 6,
-    title: "Universe Lorem: Code Your Way Through Galaxies",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, officiis, eum modi inventore natus velit voluptates laudantium nam.",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    img: "https://i.pinimg.com/originals/bf/c3/fb/bfc3fb764ff5f4d8d9ecb6da8544709c.gif",
-    github: "https://github.com/codewithty",
-    link: "https://codewithty.dev/contact",
-    techs: ["JavaScript", "React", "NodeJS", "CSS", "NextJS", "GitHub"],
   },
 ];
 
@@ -178,11 +181,11 @@ export const socialMedia = [
     img: "assets/web.svg",
     link: "https://linktr.ee/shobam",
   },
-  {
-    id: 3,
-    img: "assets/insta.svg",
-    link: "https://www.instagram.com/shobam__/",
-  },
+  // {
+  //   id: 3,
+  //   img: "assets/insta.svg",
+  //   link: "https://www.instagram.com/shobam__/",
+  // },
   {
     id: 4,
     img: "assets/x.svg",
