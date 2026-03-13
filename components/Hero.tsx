@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
         <Reveal>
           <h1 className="text-center text-2xl md:text-6xl lg:text-7xl font-extrabold">
-            Hey, I&apos;m {""}
+            I&apos;m {""}
             <span className="bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
               Oluwatobi Sobayo
             </span>
