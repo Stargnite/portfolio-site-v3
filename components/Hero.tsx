@@ -1,6 +1,6 @@
 import Button from "./ui/Button";
 import Reveal from "./ui/Reveal";
-import { Spotlight } from "./ui/Spotlight";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -15,10 +15,15 @@ const Hero = () => {
       </div> */}
       <div className="text-center my-5 mx-auto max-w-full justify-center flex flex-col">
         <div className="flex justify-center W-full mb-5 z-10">
-          <img
-            src="/me.png"
+          <Image
+            priority
+            src="/me.avif"
             alt="Image of me"
+            width={250}
+            height={250}
             className="w-[250px] h-[250px] rounded-full object-cover"
+            sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 800px"
+            loading="eager"
           />
         </div>
         <Reveal>
@@ -41,7 +46,7 @@ const Hero = () => {
         <a className="mt-10 mx-auto" target="_blank" href="https://wa.me//+2349029265732">
           <Button
             title="Contact me"
-            icon={<img src="assets/send.svg" />}
+            icon={<Image alt="send icon" width={15} height={15} src="assets/send.svg" />}
             position="right"
           />
         </a>

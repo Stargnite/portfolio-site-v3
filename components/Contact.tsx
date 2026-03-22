@@ -46,7 +46,7 @@ const Contact = () => {
         <a className="mt-10 mb-20" href="mailto:sobayotoby@gmail.com">
           <Button
             title="Let's connect"
-            icon={<Image src="assets/send.svg" alt="icon" />}
+            icon={<Image alt="send icon" width={15} height={15} src="assets/send.svg" />}
             position="right"
           />
         </a>
@@ -123,7 +123,7 @@ const Contact = () => {
                 className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-3xl bg-slate-900/[0.8] px-5 text-sm font-medium text-white backdrop-blur-3xl gap-2`}
               >
                 <span className="font-extrabold">Send</span>
-                <img src="assets/send.svg" />
+                <Image alt="send icon" width={15} height={15} src="assets/send.svg" />
               </span>
             </button>
           </form>
